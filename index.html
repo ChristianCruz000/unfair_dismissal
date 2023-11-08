@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="favico.png" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ICONS  font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- JAVASCRIPT -->
+    <script src="script.js" defer></script>
+
+    <title>unfairDismissal -- Expose that company.</title>
+  </head>
+
+  <body class="body">
+    <!-- MAIN CONTAINER -->
+    <div class="body__container">
+      <!-- FOOTER -->
+      <footer class="footer">
+        <small class="copyright">
+          <p class="copyright__text">
+            © Copyright by
+            <a
+              href="https://bytegrad.com"
+              class="copyright__link"
+              target="_blank"
+              >unfairDismissal.wtf</a
+            >
+            <i class="fa-solid fa-square-up-right copyright__icon"></i> Intended
+            for learning and my portfolio.
+          </p>
+        </small>
+      </footer>
+      <!-- APPLICATION -->
+      <main class="app">
+        <header class="header">
+          <img src="pattern.svg" alt="pattern" class="header__pattern" />
+          <a href="." class="logo">
+            <img src="logo.svg" alt="logo" class="logo__img" width="200" />
+          </a>
+          <h1 class="first-heading">
+            Expose that <span class="red-brand">company.</span>
+          </h1>
+          <!-- STORY FORM -->
+          <form action="#" class="form">
+            <textarea
+              class="form__textarea"
+              id="textarea"
+              spellcheck="false"
+              maxlength="560"
+              type="text"
+              placeholder="Enter story"
+            ></textarea>
+            <label for="textarea" class="form__label"
+              >Tell us your story and don't forget to
+              <span class="u-medium">#hashtag</span> the company
+              <i class="fa-solid fa-pen form__icon"></i
+            ></label>
+            <div class="form__bottom">
+              <p class="counter u-italic">560</p>
+              <button class="submit-btn">
+                <span class="submit-btn__text">Submit</span>
+              </button>
+            </div>
+          </form>
+        </header>
+        <!-- ORDERED LIST OF STORIES -->
+        <ol class="feedbacks">
+          <!-- <div class="spinner"></div> -->
+        </ol>
+      </main>
+      <!-- POPULAR COMPANIES -->
+      <ul class="hashtags">
+        <li class="hashtags__item">
+          <button class="hashtag">#Meta</button>
+        </li>
+        <li class="hashtags__item">
+          <button class="hashtag">#Google</button>
+        </li>
+        <li class="hashtags__item">
+          <button class="hashtag">#Spotify</button>
+        </li>
+        <li class="hashtags__item">
+          <button class="hashtag">#Netflix</button>
+        </li>
+        <li class="hashtags__item">
+          <button class="hashtag">#Amazon</button>
+        </li>
+        <li class="hashtags__item">
+          <button class="hashtag">#Microsoft</button>
+        </li>
+        <li class="hashtags__item">
+          <button class="hashtag">#Activision</button>
+        </li>
+        <li class="hashtags__item">
+          <button class="hashtag">#Accenture</button>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
